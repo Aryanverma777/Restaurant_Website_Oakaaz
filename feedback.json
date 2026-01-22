@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1704067200000,
+    "name": "Rajkamal Meena",
+    "email": "rajkamal@example.com",
+    "rating": 5,
+    "message": "Recently Visited and Celebrated friend Birthday here. It's a Nice place. Cozy Atmosphere, Absolutely Delicious Food, And Everything Is So Perfect. We get Some Real good Pictures here as well. That was awesome.",
+    "timestamp": "01/01/2024, 12:00:00 PM"
+  },
+  {
+    "id": 1704153600000,
+    "name": "Maishool Patidar",
+    "email": "maishool@example.com",
+    "rating": 5,
+    "message": "We ordered Cream of Mushroom Soup, Paneer Lal Mirch Tikka, Exotic Alfredo Pasta, and Green Thai Curry with Steam Rice – everything tasted great! The place itself is lovely, with a rooftop setup and live singing performances that make the experience even better. Perfect spot for a nice evening out.",
+    "timestamp": "01/02/2024, 08:30:00 PM"
+  },
+  {
+    "id": 1704240000000,
+    "name": "Garima Mutha",
+    "email": "garima@example.com",
+    "rating": 5,
+    "message": "As I booked the table and done booking with decor ..... It was the same decor as sent by them before booking..... Best decoration done by team Oakaz at last moment.... We all just loved it And food quality was just best ...... Proper taste and proper quantity with best quality in reasonable rates ..... Staff service is also too good In short our dinner date was too successful with OAKAZ ROOFTOP RESTAURANT",
+    "timestamp": "01/03/2024, 07:15:00 PM"
+  }
+]

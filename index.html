@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oakaz Rooftop Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Floating particles background -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-icon">🍽️</span>
+        <span class="logo-text">Oakaz Rooftop Restaurant</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#specials">Specials</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+      <button class="reserve-btn" onclick="window.location.href='/reserve/reserve.html'" target="_blank">Reserve Table</button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Oakaz Rooftop<br><span class="highlight">Restaurant</span></h1>
+        <p>Experience dining like never before. Our fusion cuisine takes you on an extraordinary journey through flavors from around the galaxy.</p>
+        <button class="cta-btn" onclick="window.location.href='#menu'">Explore Menu</button>
+      </div>
+      <div class="hero-visual">
+        <!-- 3D Element Placeholder -->
+        <div class="three-d-container" id="threeDContainer">
+          <img src="/assest/Rimage10.png">
+          <div class="placeholder-3d">
+            <div class="floating-plate"></div>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="menu">
+    <div class="container">
+      <div class="feature-cards">
+        <div class="feature-card">
+          <div class="feature-icon">🍳</div>
+          <h3>Breakfast Delights</h3>
+          <p>Start your day with our signature morning creations, crafted with the freshest ingredients and cosmic inspiration.</p>
+          <button class="feature-btn orange" onclick="window.open('/breakfast/bd.html', '_blank')">View Menu</button>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🥗</div>
+          <h3>Lunch Specials</h3>
+          <p>Midday masterpieces that fuel your afternoon with bold flavors and sustainable energy from fresh produce.</p>
+          <button class="feature-btn cyan" onclick="window.open('/lunch/lunch.html', '_blank')">View Menu</button>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🍷</div>
+          <h3>Evening Elegance</h3>
+          <p>Indulge in our exquisite dinner selections paired with fine wines from our curated celestial collection.</p>
+          <button class="feature-btn pink" onclick="window.open('/evening/evening.html', '_blank')">View Menu</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Gallery Section -->
+  <section class="menu-gallery" id="specials">
+    <div class="container">
+      <h2 class="section-title">Our Signature Dishes</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <img src="/assest/Rimage2.png" alt="Signature Steak">
+          <div class="gallery-overlay">
+            <h4 class="dish-name">Cosmic Ribeye</h4>
+            <p class="desc">Premium aged beef with nebula reduction</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/assest/Rimage4.png" alt="Seafood Pasta">
+          <div class="gallery-overlay">
+            <h4 class="dish-name">Ocean Nebula</h4>
+            <p class="desc">Fresh seafood linguine</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/assest/Rimage5.png" alt="Sushi">
+          <div class="gallery-overlay">
+            <h4 class="dish-name">Galaxy Roll</h4>
+            <p class="desc">Chef's special sushi</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/assest/Rimage6.png" alt="Dessert">
+          <div class="gallery-overlay">
+            <h4 class="dish-name">Dark Matter</h4>
+            <p class="desc">Chocolate lava cake</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="/assest/Rimage7.png" alt="Cocktails">
+          <div class="gallery-overlay">
+            <h4 class="dish-name">Stellar Spirits</h4>
+            <p  class="desc">Signature cocktails</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="gallery">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>A Dining Experience<br><span class="highlight">Beyond Earth</span></h2>
+          <p>Step into Stellar Bites and transcend ordinary dining. Our award-winning chefs combine traditional techniques with futuristic innovation to create dishes that are truly out of this world.</p>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">50k</span>
+              <span class="stat-label">Happy Guests</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">120</span>
+              <span class="stat-label">Menu Items</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="/assest/Rimage1.png" alt="Restaurant Interior">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="feedback" id="feedback">
+    <div class="container">
+      <div class="feedback-wrapper">
+        <div class="feedback-form-wrapper">
+          <h2 class="section-title">Share Your Experience</h2>
+          <p class="feedback-subtitle">We'd love to hear about your dining experience at Stellar Bites</p>
+          <form class="feedback-form" id="feedbackForm">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" id="feedbackName" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email Address" id="feedbackEmail" required>
+            </div>
+            <div class="form-group">
+              <select id="feedbackRating" required>
+                <option value="">Select Rating</option>
+                <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                <option value="4">⭐⭐⭐⭐ Very Good</option>
+                <option value="3">⭐⭐⭐ Good</option>
+                <option value="2">⭐⭐ Fair</option>
+                <option value="1">⭐ Poor</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea id="feedbackMessage" placeholder="Tell us about your experience..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Feedback</button>
+          </form>
+        </div>
+
+        <div class="feedback-display-wrapper">
+          <h3 class="feedback-display-title">Recent Feedback</h3>
+          <div class="feedback-cards" id="feedbackCards">
+            <p class="no-feedback">No feedback yet. Be the first to share!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-icon">🍽️</span>
+            <span class="logo-text">Stellar Bites</span>
+          </div>
+          <p>Where culinary art meets cosmic inspiration</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#specials">Specials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/oakaz_rooftop_restaurant?igsh=ZXVyZWVmeGo3YTR2" class="social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://maps.app.goo.gl/Vz48BovnTL6o57959?g_st=aw" class="social-icon"><ion-icon name="navigate-outline"></ion-icon></a>
+            <a href="https://www.facebook.com/share/1D3GoSD8Wy/" class="social-icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Stellar Bites. All rights reserved.</p>
+      </div>
+    </div>
+    
+  </footer>
+  <script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.158.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>

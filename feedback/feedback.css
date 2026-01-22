@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.review {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

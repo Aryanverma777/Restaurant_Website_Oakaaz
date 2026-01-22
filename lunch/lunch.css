@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.menu-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.menu-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.8rem;
+}
+
+.menu-box {
+    display: flex;
+    flex-wrap: wrap;                 /* ✅ IMPORTANT for dropdown */
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.menu-box:hover {
+    transform: scale(1.02);
+}
+
+.menu-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.menu-box img {
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* 🔽 Dropdown styles */
+.dropdown {
+    display: none;
+    width: 100%;
+    margin-top: 15px;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.dropdown p {
+    margin: 8px 0;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.dropdown p:hover {
+    background: #eaeaea;
+}
+
+/* 📱 Mobile view */
+@media (max-width: 768px) {
+    .menu-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-box img {
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .dropdown {
+        text-align: left;
+    }
+}

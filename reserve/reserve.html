@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation</title>
+    <link rel="stylesheet" href="reserve.css">
+</head>
+<body>
+    <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2>Reserve Your<br><span class="highlight">Table Today</span></h2>
+          <p>Join us for an unforgettable dining experience</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Geeta Bhavan Chouraha, Kanchan Bagh, Indore, Madhya Pradesh 452001</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <span>08305285039</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">⏰</span>
+              <span>Mon-Sun: 10:00AM - 11:00PM</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="reservationForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="date" required>
+            </div>
+            <div class="form-group">
+              <select required>
+                <option value="">Guests</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5+ People</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Special Requests" rows="3"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Make Reservation</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
